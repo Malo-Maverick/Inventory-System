@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inventory System</title>
+	<link rel="stylesheet" type="text/css" href="inventory.css">
+	<script src="inventory.js"></script>
+</head>
+<body onmouseout="telle()">
+	<fieldset>
+		<center>
+			<p>Inventory System</p>
+			<table border="1">
+				<tr>
+					<th>S/N</th>
+					<th>Product Image</th>
+					<th>Product Name</th>
+					<th>Quantity Available</th>
+					<th>Unit Price [&#8358;]</th>
+					<th>Order</th>
+					<th>Total [&#8358;]</th>
+				</tr>
+				<tr>
+					<td class="sn">1.</td>
+					<td onmouseover="tele()" id="tv"><img src="tv.png"></td>
+					<td>LG E8 55& 65 inches</td>
+					<td><input type="text" name="" value="50" id="qa" disabled></td>
+					<td><input type="text" name="" value="500" id="up" disabled></td>
+					<td><input type="number" name="" onchange="one()" id="order"></td>
+					<td><input type="text" name="" id="tota" disabled></td>
+				</tr>
+				<tr>
+					<td class="sn">2.</td>
+					<td onmouseover="fone()" id="phone"><img src="phone.png"></td>
+					<td>Nokia 3310</td>
+					<td><input type="text" name="" value="250" id="qa1" disabled></td>
+					<td><input type="text" name="" value="200" id="up1" disabled></td>
+					<td><input type="number" name="" onchange="two()" id="order1"></td>
+					<td><input type="text" name="" id="tota1" disabled></td>
+				</tr>
+				<tr>
+					<td class="sn">3.</td>
+					<td onmouseover="bball()" id="ball"><img src="ball.png"></td>
+					<td>Basketball</td>
+					<td><input type="text" name="" value="300" id="qa2" disabled></td>
+					<td><input type="text" name="" value="800" id="up2" disabled></td>
+					<td><input type="number" name="" onchange="three()" id="order2"></td>
+					<td><input type="text" name="" id="tota2" disabled></td>
+				</tr>
+				<tr>
+					<td class="sn">4.</td>
+					<td onmouseover="gtar()" id="guitar"><img src="guitar.png"></td>
+					<td>Gretsch G2622 Streamliner</td>
+					<td><input type="text" name="" value="175" id="qa3" disabled></td>
+					<td><input type="text" name="" value="850" id="up3" disabled></td>
+					<td><input type="number" name="" onchange="four()" id="order3"></td>
+					<td><input type="text" name="" disabled id="tota3"></td>
+				</tr>
+				<tr>
+					<td class="sn">5.</td>
+					<td onmouseover="shoo()" id="shoe"><img src="shoe.png"></td>
+					<td>Alexander McQueen</td>
+					<td><input type="text" name="" value="80" id="qa4" disabled></td>
+					<td><input type="text" name="" value="200" id="up4" disabled></td>
+					<td><input type="number" name="" onchange="five()" id="order4"></td>
+					<td><input type="text" name="" id="tota4" disabled></td>
+				</tr>
+				<tr>
+					<td class="sn">6.</td>
+					<td onmouseover="jket()" id="jacket"><img src="jacket.png"></td>
+					<td>Bomber Jacket</td>
+					<td><input type="text" name="" value="500" id="qa5" disabled></td>
+					<td><input type="text" name="" value="700" id="up5" disabled></td>
+					<td><input type="number" name="" onchange="six()" id="order5"></td>
+					<td><input type="text" name="" id="tota5" disabled></td>
+				</tr>
+				<tr>
+					<td class="sn">7.</td>
+					<td onmouseover="scuter()" id="scooter"><img src="scooter.png"></td>
+					<td>Suzuki Burgman</td>
+					<td><input type="text" name="" value="80" id="qa6" disabled></td>
+					<td><input type="text" name="" value="100" id="up6" disabled></td>
+					<td><input type="number" name="" onchange="seven()" id="order6"></td>
+					<td><input type="text" name="" disabled id="tota6"></td>
+				</tr>
+				<tr>
+					<td class="sn">8.</td>
+					<td onmouseover="rubic()" id="rubik"><img src="rubik.png"></td>
+					<td>Rubik's Cube</td>
+					<td><input type="text" name="" value="120" id="qa7" disabled></td>
+					<td><input type="text" name="" value="300" id="up7" disabled></td>
+					<td><input type="number" name="" onchange="eight()" id="order7"></td>
+					<td><input type="text" name="" disabled id="tota7"></td>
+				</tr>
+				<tr>
+					<td class="sn">9.</td>
+					<td onmouseover="himac()" id="imac"><img src="imac.png"></td>
+					<td>iMac G3</td>
+					<td><input type="text" name="" value="50" id="qa8" disabled></td>
+					<td><input type="text" name="" value="750" id="up8" disabled></td>
+					<td><input type="number" name="" onchange="nine()" id="order8"></td>
+					<td><input type="text" name="" disabled id="tota8"></td>
+				</tr>
+				<tr>
+					<td class="sn" >10.</td>
+					<td onmouseover="camerar()" id="cam"><img src="camera.png"></td>
+					<td>Nikon Polaroid SX70</td>
+					<td><input type="text" name="" value="250" id="qa9" disabled></td>
+					<td><input type="text" name="" value="900" id="up9" disabled></td>
+					<td><input type="number" name="" onchange="ten()" id="order9"></td>
+					<td><input type="text" name="" disabled id="tota9"></td>
+				</tr>
+				<tr>
+					<td colspan="6" class="total">Grand Total</td>
+					<td><input type="number" name="" id="grand" disabled></td>
+				</tr>
+			</table>
+			<div class="subcontain">
+				<div id="appear">
+				
+				</div>
+			</div>
+	</fieldset>
+</body>
+</html>
